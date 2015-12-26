@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -233,7 +233,7 @@ Specifically based on the MBC1-B chip</description>
 <pin name="A13" x="93.98" y="2.54" visible="pad" length="short" rot="R270"/>
 <pin name="A14" x="99.06" y="2.54" visible="pad" length="short" rot="R270"/>
 <pin name="D0" x="109.22" y="2.54" visible="pad" length="short" rot="R270"/>
-<pin name="NC" x="7.62" y="2.54" visible="pad" length="short" direction="nc" rot="R270"/>
+<pin name="CLK" x="7.62" y="2.54" visible="pad" length="short" rot="R270"/>
 <pin name="D1" x="114.3" y="2.54" visible="pad" length="short" rot="R270"/>
 <pin name="D2" x="119.38" y="2.54" visible="pad" length="short" rot="R270"/>
 <pin name="D3" x="124.46" y="2.54" visible="pad" length="short" rot="R270"/>
@@ -242,7 +242,7 @@ Specifically based on the MBC1-B chip</description>
 <pin name="D6" x="139.7" y="2.54" visible="pad" length="short" rot="R270"/>
 <pin name="D7" x="144.78" y="2.54" visible="pad" length="short" rot="R270"/>
 <pin name="/RS" x="149.86" y="2.54" visible="pad" length="short" rot="R270"/>
-<pin name="VIN" x="154.94" y="2.54" visible="pad" length="short" rot="R270"/>
+<pin name="AUDIO" x="154.94" y="2.54" visible="pad" length="short" rot="R270"/>
 <pin name="GND" x="160.02" y="2.54" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="A15" x="104.14" y="2.54" visible="pad" length="short" rot="R270"/>
 <text x="0" y="7.62" size="1.27" layer="96">&gt;VALUE</text>
@@ -383,6 +383,8 @@ Specifically based on the MBC1-B chip</description>
 <connect gate="G$1" pin="A7" pad="13"/>
 <connect gate="G$1" pin="A8" pad="14"/>
 <connect gate="G$1" pin="A9" pad="15"/>
+<connect gate="G$1" pin="AUDIO" pad="31"/>
+<connect gate="G$1" pin="CLK" pad="2"/>
 <connect gate="G$1" pin="D0" pad="22"/>
 <connect gate="G$1" pin="D1" pad="23"/>
 <connect gate="G$1" pin="D2" pad="24"/>
@@ -392,9 +394,7 @@ Specifically based on the MBC1-B chip</description>
 <connect gate="G$1" pin="D6" pad="28"/>
 <connect gate="G$1" pin="D7" pad="29"/>
 <connect gate="G$1" pin="GND" pad="32"/>
-<connect gate="G$1" pin="NC" pad="2"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
-<connect gate="G$1" pin="VIN" pad="31"/>
 </connects>
 <technologies>
 <technology name=""/>
