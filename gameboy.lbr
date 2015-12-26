@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
@@ -210,10 +210,10 @@ Specifically based on the MBC1-B chip</description>
 </package>
 <package name="STM32F405RG">
 <description>IC MCU 32BIT 1MB FLASH 64LQFP</description>
-<wire x1="-130.81" y1="-130.81" x2="130.81" y2="-130.81" width="0.127" layer="51"/>
-<wire x1="-130.81" y1="130.81" x2="130.81" y2="130.81" width="0.127" layer="51"/>
-<wire x1="-130.81" y1="-130.81" x2="-130.81" y2="130.81" width="0.127" layer="51"/>
-<wire x1="130.81" y1="-130.81" x2="130.81" y2="130.81" width="0.127" layer="51"/>
+<wire x1="-5.15" y1="-5.15" x2="5.15" y2="-5.15" width="0.127" layer="51"/>
+<wire x1="-5.15" y1="5.15" x2="5.15" y2="5.15" width="0.127" layer="51"/>
+<wire x1="-5.15" y1="-5.15" x2="-5.15" y2="5.15" width="0.127" layer="51"/>
+<wire x1="5.15" y1="-5.15" x2="5.15" y2="5.15" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
