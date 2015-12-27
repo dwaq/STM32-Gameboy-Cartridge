@@ -278,6 +278,11 @@ Specifically based on the MBC1-B chip</description>
 <smd name="35" x="2.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
 <smd name="34" x="3.25" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
 <smd name="33" x="3.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<circle x="-4" y="-4" radius="0.4" width="0.3048" layer="21"/>
+<wire x1="-4.9" y1="4.9" x2="4.9" y2="4.9" width="0.3048" layer="21"/>
+<wire x1="4.9" y1="4.9" x2="4.9" y2="-4.9" width="0.3048" layer="21"/>
+<wire x1="4.9" y1="-4.9" x2="-4.9" y2="-4.9" width="0.3048" layer="21"/>
+<wire x1="-4.9" y1="-4.9" x2="-4.9" y2="4.9" width="0.3048" layer="21"/>
 </package>
 </packages>
 <symbols>
