@@ -18,9 +18,9 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -283,6 +283,8 @@ Specifically based on the MBC1-B chip</description>
 <wire x1="4.9" y1="4.9" x2="4.9" y2="-4.9" width="0.3048" layer="21"/>
 <wire x1="4.9" y1="-4.9" x2="-4.9" y2="-4.9" width="0.3048" layer="21"/>
 <wire x1="-4.9" y1="-4.9" x2="-4.9" y2="4.9" width="0.3048" layer="21"/>
+<text x="-3" y="2.7" size="1.27" layer="27">&gt;Value</text>
+<text x="-3" y="-2.7" size="1.27" layer="25">&gt;Name</text>
 </package>
 </packages>
 <symbols>
