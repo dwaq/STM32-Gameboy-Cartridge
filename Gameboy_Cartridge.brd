@@ -1667,6 +1667,7 @@ design rules under a new name.</description>
 <element name="C2" library="resistor" package="C0805" value="2.2uF" x="-5.4" y="-24.6"/>
 <element name="C3" library="resistor" package="C0805" value="2.2uF" x="-5.4" y="-30.3"/>
 <element name="R3" library="resistor" package="M0805" value="10K" x="-5.4" y="-36"/>
+<element name="C4" library="resistor" package="C0805" value="0.1uF" x="-5.4" y="-41.7"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1718,6 +1719,8 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="R2" pad="1"/>
 <contactref element="J1" pad="3"/>
+<contactref element="C4" pad="1"/>
+<wire x1="-6.35" y1="-18.9" x2="-6.25" y2="-41.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.6" y1="-12.85" x2="-6.35" y2="-18.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
@@ -1733,7 +1736,9 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="J1" pad="5"/>
 <contactref element="U$2" pad="7"/>
-<wire x1="-1.06" y1="-12.85" x2="14.05" y2="23.95" width="0" layer="19" extent="1-1"/>
+<contactref element="C4" pad="2"/>
+<wire x1="-1.06" y1="-12.85" x2="-4.55" y2="-41.7" width="0" layer="19" extent="1-1"/>
+<wire x1="14.05" y1="23.95" x2="-1.06" y2="-12.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="J1" pad="6"/>

@@ -6353,6 +6353,7 @@ CONN_03x2
 <part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="2.2uF"/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="2.2uF"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="M0805" value="10K"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6368,6 +6369,7 @@ CONN_03x2
 <instance part="C2" gate="G$1" x="68.58" y="215.9" rot="R90"/>
 <instance part="C3" gate="G$1" x="78.74" y="213.36" rot="R90"/>
 <instance part="R3" gate="G$1" x="2.54" y="231.14" rot="R90"/>
+<instance part="C4" gate="G$1" x="-48.26" y="190.5" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6468,6 +6470,11 @@ CONN_03x2
 <wire x1="-48.26" y1="213.36" x2="-86.36" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="213.36" x2="-86.36" y2="215.9" width="0.1524" layer="91"/>
 <junction x="-86.36" y="215.9"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-48.26" y1="187.96" x2="-48.26" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="182.88" x2="-86.36" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="182.88" x2="-86.36" y2="213.36" width="0.1524" layer="91"/>
+<junction x="-86.36" y="213.36"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -6496,6 +6503,9 @@ CONN_03x2
 <wire x1="7.62" y1="203.2" x2="7.62" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="NRST"/>
 <wire x1="7.62" y1="215.9" x2="17.78" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="-48.26" y1="195.58" x2="-48.26" y2="203.2" width="0.1524" layer="91"/>
+<junction x="-48.26" y="203.2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
