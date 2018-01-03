@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -112,6 +113,84 @@
 <smd name="30" x="44.4" y="-3" dx="1" dy="6" layer="1"/>
 <smd name="31" x="45.9" y="-3" dx="1" dy="6" layer="1"/>
 <smd name="32" x="47.6" y="-3" dx="1.4" dy="6" layer="1" rot="R180"/>
+</package>
+<package name="STM32F405RG">
+<description>IC MCU 32BIT 1MB FLASH 64LQFP</description>
+<wire x1="-5.15" y1="-5.15" x2="5.15" y2="-5.15" width="0.127" layer="51"/>
+<wire x1="-5.15" y1="5.15" x2="5.15" y2="5.15" width="0.127" layer="51"/>
+<wire x1="-5.15" y1="-5.15" x2="-5.15" y2="5.15" width="0.127" layer="51"/>
+<wire x1="5.15" y1="-5.15" x2="5.15" y2="5.15" width="0.127" layer="51"/>
+<smd name="49" x="-5.75" y="3.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="50" x="-5.75" y="3.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="51" x="-5.75" y="2.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="52" x="-5.75" y="2.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="53" x="-5.75" y="1.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="54" x="-5.75" y="1.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="55" x="-5.75" y="0.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="56" x="-5.75" y="0.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="57" x="-5.75" y="-0.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="58" x="-5.75" y="-0.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="59" x="-5.75" y="-1.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="60" x="-5.75" y="-1.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="61" x="-5.75" y="-2.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="62" x="-5.75" y="-2.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="63" x="-5.75" y="-3.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="64" x="-5.75" y="-3.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="17" x="5.75" y="-3.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="18" x="5.75" y="-3.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="19" x="5.75" y="-2.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="20" x="5.75" y="-2.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="21" x="5.75" y="-1.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="22" x="5.75" y="-1.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="23" x="5.75" y="-0.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="24" x="5.75" y="-0.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="25" x="5.75" y="0.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="26" x="5.75" y="0.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="27" x="5.75" y="1.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="28" x="5.75" y="1.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="29" x="5.75" y="2.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="30" x="5.75" y="2.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="31" x="5.75" y="3.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="32" x="5.75" y="3.75" dx="1.2" dy="0.3" layer="1"/>
+<smd name="1" x="-3.75" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-3.25" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-2.25" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-1.75" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-1.25" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-0.75" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-0.25" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="0.25" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="0.75" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="1.75" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="2.25" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="2.75" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="3.25" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="3.75" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="1.25" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-2.75" y="-5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="48" x="-3.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="47" x="-3.25" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="46" x="-2.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="45" x="-2.25" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="44" x="-1.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="43" x="-1.25" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="42" x="-0.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="41" x="-0.25" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="40" x="0.25" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="39" x="0.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="38" x="1.25" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="37" x="1.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="36" x="2.25" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="35" x="2.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="34" x="3.25" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<smd name="33" x="3.75" y="5.75" dx="1.2" dy="0.3" layer="1" rot="R90"/>
+<circle x="-4" y="-4" radius="0.4" width="0.3048" layer="21"/>
+<wire x1="-4.9" y1="4.9" x2="4.9" y2="4.9" width="0.3048" layer="21"/>
+<wire x1="4.9" y1="4.9" x2="4.9" y2="-4.9" width="0.3048" layer="21"/>
+<wire x1="4.9" y1="-4.9" x2="-4.9" y2="-4.9" width="0.3048" layer="21"/>
+<wire x1="-4.9" y1="-4.9" x2="-4.9" y2="4.9" width="0.3048" layer="21"/>
+<text x="-3" y="2.7" size="1.27" layer="27">&gt;Value</text>
+<text x="-3" y="-2.7" size="1.27" layer="25">&gt;Name</text>
 </package>
 </packages>
 </library>
@@ -1308,10 +1387,11 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1415,6 +1495,7 @@ design rules under a new name.</description>
 <element name="U$1" library="gameboy" package="CONNECTOR" value="CONNECTOR" x="1.35" y="7"/>
 <element name="R1" library="resistor" package="M0805" value="47K" x="39.98" y="41.58" rot="R180"/>
 <element name="C1" library="resistor" package="C0805" value="20nF" x="25.5" y="45"/>
+<element name="U$2" library="gameboy" package="STM32F405RG" value="STM32F405RG" x="14.8" y="29.7"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1433,6 +1514,29 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="31"/>
 <contactref element="R1" pad="1"/>
 <wire x1="47.25" y1="4" x2="40.93" y2="41.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDDA">
+<contactref element="U$2" pad="13"/>
+</signal>
+<signal name="VSSA">
+<contactref element="U$2" pad="12"/>
+</signal>
+<signal name="VBAT">
+<contactref element="U$2" pad="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="U$2" pad="19"/>
+<contactref element="U$2" pad="64"/>
+<contactref element="U$2" pad="48"/>
+<contactref element="U$2" pad="32"/>
+<wire x1="11.05" y1="35.45" x2="9.05" y2="25.95" width="0" layer="19" extent="1-1"/>
+<wire x1="20.55" y1="33.45" x2="11.05" y2="35.45" width="0" layer="19" extent="1-1"/>
+<wire x1="20.55" y1="26.95" x2="20.55" y2="33.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="U$2" pad="18"/>
+<contactref element="U$2" pad="63"/>
+<wire x1="20.55" y1="26.45" x2="9.05" y2="26.45" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
