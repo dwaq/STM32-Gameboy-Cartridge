@@ -6350,6 +6350,8 @@ CONN_03x2
 <part name="U$2" library="gameboy" deviceset="STM32F405RG" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03X2" device="FEMALE_SMD" package3d_urn="urn:adsk.eagle:package:38267/1"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="M0805" value="10K"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="2.2uF"/>
+<part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="2.2uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6362,6 +6364,8 @@ CONN_03x2
 <instance part="U$2" gate="G$1" x="33.02" y="167.64"/>
 <instance part="J1" gate="G$1" x="-40.64" y="213.36"/>
 <instance part="R2" gate="G$1" x="-73.66" y="215.9"/>
+<instance part="C2" gate="G$1" x="68.58" y="215.9" rot="R90"/>
+<instance part="C3" gate="G$1" x="78.74" y="213.36" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6396,6 +6400,7 @@ CONN_03x2
 <label x="195.58" y="220.98" size="1.778" layer="95"/>
 <label x="27.94" y="104.14" size="1.778" layer="95"/>
 <label x="-91.44" y="215.9" size="1.778" layer="95"/>
+<label x="104.14" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="31" class="0">
@@ -6496,6 +6501,31 @@ CONN_03x2
 <wire x1="-17.78" y1="210.82" x2="-17.78" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="PB3"/>
 <wire x1="-17.78" y1="157.48" x2="17.78" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="VCAP_1"/>
+<wire x1="66.04" y1="215.9" x2="48.26" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCAP_2"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="213.36" x2="76.2" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="213.36" x2="93.98" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="213.36" x2="93.98" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="215.9" x2="73.66" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="213.36" x2="104.14" y2="213.36" width="0.1524" layer="91"/>
+<junction x="93.98" y="213.36"/>
 </segment>
 </net>
 </nets>
