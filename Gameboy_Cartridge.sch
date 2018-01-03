@@ -6380,7 +6380,6 @@ CONN_03x2
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="233.68" x2="195.58" y2="233.68" width="0.1524" layer="91"/>
 <label x="195.58" y="233.68" size="1.778" layer="95"/>
-<label x="25.4" y="238.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
